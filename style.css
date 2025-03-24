@@ -158,3 +158,22 @@ span {
     font-size: 2rem;
     font-weight: 1000;
 }
+
+/*========== Content Panels =========*/
+.content-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 3fr 2fr;
+}
+
+.content-title {
+    border: black 1px solid;
+}
+
+.content-panels {
+    grid-row: 1 / span 2;
+}
+
+#projects {
+    grid-row: 1 / span 2;
+}
